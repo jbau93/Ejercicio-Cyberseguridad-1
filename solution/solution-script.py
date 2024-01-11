@@ -22,9 +22,9 @@ with open(hashes_file, 'r') as file:
     hashes = json.load(file)
 
 for file, hash_json in hashes["files"].items():
-    ruta_archivo = f'{folder_pyj}/{file}'
+    file_path = f'{folder_pyj}/{file}'
 
-    hash_result = calculate_md5sum(ruta_archivo)
+    hash_result = calculate_md5sum(file_path)
 
     if hash_result != hash_json:
         print(f"El archivo '{file}' fue adulterado, el hash anterior es '{hash_json}. El hash generado es '{hash_result}'")
