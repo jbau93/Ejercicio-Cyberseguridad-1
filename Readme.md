@@ -19,13 +19,13 @@ Solucion
 
 Requisitos:
 
--Python
--Bash
+Python
+Bash
 
 Pasos:
 En el lenguaje bash lanzar los siguientes comandos:
 
-1. Clona el repositorio:  git clone https://github.com/jbau93/Ejercicio-Cyberseguridad-1.git
-2. Cambiar a la rama en donde se encuentra la solucion: git checkout feature-solution
-3. Ir a la carpeta en donde se encuentra el script de la solucion: cd solution
-4. Correr el script: python solution-script.py
+1. Clona el repositorio:  ```git clone https://github.com/jbau93/Ejercicio-Cyberseguridad-1.git```
+2. Cambiar a la rama en donde se encuentra la solucion: ```git checkout feature-solution```
+3. Ir a la carpeta en donde se encuentra el script de la solucion: ```cd solution```
+4. Correr el script: ```python solution-script.py```
